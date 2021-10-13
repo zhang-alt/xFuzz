@@ -1,5 +1,5 @@
 # xFuzz
-#Quick Start
+## Quick Start
 A container with the dependencies set up can be found [here](https://hub.docker.com/repository/docker/weizhang789/xfuzz).
 To open the container, install docker and run:
 ```
@@ -11,17 +11,20 @@ python3 ./static_analysis/main.py && bash fuzzing_script
 ```
 and you are done!
 
-#Installation Instructions
+## Installation Instructions
 
-##Solidity Compiler
+### Solidity Compiler
 ```
 sudo add-apt-repository ppa:ethereum/ethereum
 sudo apt-get update
 sudo apt-get install solc
 ```
-##fuzzing engine
-refer [here](https://githubmemory.com/repo/duytai/sFuzz)
-
-##static analysis tool
+### fuzzing engine
+refer [here](https://githubmemory.com/repo/duytai/sFuzz).
+### static analysis tool
 [slither](https://github.com/crytic/slither) and [surya](https://github.com/ConsenSys/surya).
 
+Start fuzzing using the command:
+```
+python3 ./static_analysis/main.py && bash fuzzing_script
+```
