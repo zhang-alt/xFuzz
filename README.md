@@ -1,4 +1,4 @@
-# xFuzz
+# coFuzz
 ## Quick Start
 A container with the dependencies set up can be found [here](https://hub.docker.com/repository/docker/weizhang789/xfuzz).
 To open the container, install docker and run:
