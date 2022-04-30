@@ -33,7 +33,7 @@ Start fuzzing the specified smart contracts, using the command:
 ```
 solc --combined-json abi,bin,bin-runtime,srcmap,srcmap-runtime,ast SOL_FILE > SOL.json
 
-fuzzer --file SOL.json --source SOL_FILE  --name CONTRACT  --function FUNCTION  --externalcall CONTRACT_FUNCTION --assets assets/ --duration 180 --mode 0 --reporter 0 --attacker ReentrancyAttacker
+fuzzer --file SOL.json --source SOL_FILE  --name CONTRACT  --function FUNCTION  --externalcall CONTRACT_FUNCTION --assets assets/ --duration 300 --mode 0 --reporter 0 --attacker ReentrancyAttacker
 ```
 
 
