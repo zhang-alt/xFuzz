@@ -13,6 +13,7 @@ using namespace std;
 using namespace fuzzer;
 namespace pt = boost::property_tree;
 
+
 /* Setup virgin byte to 255 */
 Fuzzer::Fuzzer(FuzzParam fuzzParam) : fuzzParam(fuzzParam)
 {
