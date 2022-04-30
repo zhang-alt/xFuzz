@@ -15,9 +15,9 @@ and you are done!
 
 ### Solidity Compiler
 ```
-sudo add-apt-repository ppa:ethereum/ethereum
-sudo apt-get update
-sudo apt-get install solc
+pip install solc-select
+solc-select install 0.4.26
+solc-select use 0.4.26
 ```
 ### fuzzing engine
 Refer sfuzz installation, [here](https://githubmemory.com/repo/duytai/sFuzz).
